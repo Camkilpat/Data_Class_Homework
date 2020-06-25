@@ -46,7 +46,7 @@ function getPlots(id) {
             var layout_2 = {
                 xaxis:{title: "OTU ID"},
                 height: 600,
-                width: 1000,
+                width: 1000
             };
             var data1 = [trace1];
             Plotly.newPlot("bubble", data1, layout_2);
