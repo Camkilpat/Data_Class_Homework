@@ -1,4 +1,4 @@
-// Lets begin the fun
+// Let the fun begin
 
   let svgWidth = 960;
   let svgHeight = 500;
