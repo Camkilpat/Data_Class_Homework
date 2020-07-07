@@ -44,7 +44,6 @@
           .domain([3.5, d3.max(riskData, d => d.healthcare)])
           .range([height, 0]);
   
-  
   //Create X and Y axis
       let xAxis = d3.axisBottom(xLinearScale);
       let yAxis = d3.axisLeft(yLinearScale);
@@ -84,11 +83,8 @@
           .attr("fill", "black");
        
           console.log(riskData);
-          
         
-      
-        //   Make labels for the healthrisk graph
-  
+        //   Labels for graph
       chart.append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 0 - 50)
@@ -101,9 +97,6 @@
         .attr("transform", `translate(${width / 2.5}, ${height + margin.top + 25})`)
         .attr("class", "axisText")
         .text("In Poverty (%)");
-  
-  
-  
   });
   
   
